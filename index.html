@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Jérôme Voipierre, développeur web</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="icon" type="image/png" href="img/j2.png" id="iconrel" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <meta name="description"
+        content="Jérôme Voipierre développeur web sur Pézenas. À la recherche d'une nouvelle expérience dans la programmation. Venez me découvrir !">
+    <meta name="keywords"
+        content="Jérôme, Jérome, Jerome, jérôme, jérome, jerome, Voipierre, voipierre, voipiere, Jérôme Voipierre, jerome voipierre, Jérome Voipierre, Jerome Voipierre, développeur, developpeur, développeur web, developpeur web, Pézenas, Pezenas, pezenas, pézenas">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- JS -->
+
+    <script src="jquery-3.6.0.js"></script>
+    <script src="jquery.waypoints.js"></script>
+
+
+</head>
+
+<body id="body">
+
+    <img src="img/jerome-voipierre.jpeg" alt="jerome-voipierre" style="display: none;">
+
+    <div class="container">
+        <div class="turbo_container">
+            <div class="left_side">
+                <div class="left_side_contenu">
+                    <div class="left_side_contenu_container">
+                        <div class="left_side_img">
+                            <img src="img/moi2.jpeg" alt="">
+                        </div>
+                        <div class="left_side_name">
+                            <p>Jérôme Voipierre</p>
+                        </div>
+                        <div class="left_side_work">
+                            <p>Développeur Web</p>
+                        </div>
+                        <div class="left_side_strong_point">
+                            <div class="background_circle">
+                                <a target="blank"
+                                    href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-voipierre-922b9a178" id="">
+                                    <img id="linkedinimg" src="img/linkedin.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="background_circle">
+                                <a target="blank" href="img/mon_cv.png" id="">
+                                    <img id="formimg" src="img/forme.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="left_side_menu">
+                            <a id="section_1" href="#section1" class="current"><img class="nigg" src="img/home.png"
+                                    alt="" id="imgcaca4">Accueil</a>
+                            <a onmouseover="hover(this)" onmouseout="unhover(this)" id="section_2" href="#section2"><img
+                                    class="nigg" src="img/image_grey.png" alt="" id="imgcaca3">Portfolio</a>
+                            <a onmouseover="hover(this)" onmouseout="unhover(this)" id="section_3" href="#section3"><img
+                                    class="nigg" src="img/writing_grey.png" alt="" id="imgcaca2">Skills</a>
+                            <a onmouseover="hover(this)" onmouseout="unhover(this)" id="section_4" href="#section4"><img
+                                    class="nigg" src="img/user_grey.png" alt="" id="imgcaca">À propos</a>
+                        </div>
+
+                        <div class="night-mode-button">
+                            <input type="checkbox" class="checkbox" id="night-mode">
+                            <label for="night-mode" class="label">
+
+                                <i><img id="img_moon" class="fas fa-moon" src="img/night-mode_grey.png" alt=""></i>
+                                <i><img id="img_sun" class="fas fa-sun" src="img/sun_grey.png" alt=""></i>
+                                <div class="blob"></div>
+
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="hide_img_responsive">
+                        <div class="part0_img">
+                            <img src="img/illustration-infocob-web.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right_side" id="right_side">
+                <div id="section1" class="partie_1">
+                    <div class="part1_contenu">
+                        <div class="part1_names">
+                            <p>Jérôme Voipierre</p>
+                            <h1>Développeur Web</h1>
+                        </div>
+                        <div class="part1_img">
+                            <img src="img/illustration-infocob-web.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="section2" class="partie_2">
+                    <div class="part2_contenu">
+                        <div class="part2_titre">
+                            <h2>Portfolio</h2>
+                        </div>
+                        <div class="part2_img">
+                            <div class="part2_img1">
+                                <img id="item1" onclick="cuming(this.id)" class="trigger" src="img/threejs.png" alt="">
+                                <img id="item2" onclick="cuming(this.id)" class="trigger" src="img/wiseasactu.png"
+                                    alt="">
+                                <img id="item3" onclick="cuming(this.id)" class="trigger" src="img/fan2pirates.png"
+                                    alt="">
+                            </div>
+                            <div class="part2_img2">
+                                <img id="item4" onclick="cuming(this.id)" class="trigger" src="img/courtmetrage.png"
+                                    alt="">
+                                <img id="item5" onclick="cuming(this.id)" class="trigger" src="img/voyagevoyage.png"
+                                    alt="">
+                                <img id="item6" onclick="cuming(this.id)" class="trigger" src="img/3galaxie.png" alt="">
+                            </div>
+                            <div class="part2_img3">
+                                <img id="item10" onclick="cuming(this.id)" class="trigger" src="img/affiche.png" alt="">
+                                <img id="item11" onclick="cuming(this.id)" class="trigger" src="img/backfutur.png"
+                                    alt="">
+                                <img id="item12" onclick="cuming(this.id)" class="trigger" src="img/makingof.png"
+                                    alt="">
+                            </div>
+                            <div class="part2_img3 hidden" id="part2_img4id">
+                                <img id="item7" onclick="cuming(this.id)" class="trigger" src="img/site_mmi_prod.png"
+                                    alt="">
+                                <img id="item8" onclick="cuming(this.id)" class="trigger" src="img/jeu2tir.png" alt="">
+                                <img id="item9" onclick="cuming(this.id)" class="trigger" src="img/cesite.png" alt="">
+                            </div>
+
+                        </div>
+                        <div class="part2_button">
+                            <button id="button_show" onclick="showmore()">En voir plus</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="section3" class="partie_3">
+                    <div class="part3_int_right">
+                        <div class="part3_titre">
+                            <h2>Languages</h2>
+                        </div>
+                        <div class="part3_language">
+                            <p>HTML</p>
+                            <div class="ligne"></div>
+                            <p>CSS</p>
+                            <div class="ligne"></div>
+                            <p>JAVASCRIPT</p>
+                            <div class="ligne4"></div>
+                            <p>PHP</p>
+                            <div class="ligne3"></div>
+                            <p>SQL</p>
+                            <div class="ligne4"></div>
+                            <p>C#</p>
+                            <div class="ligne5"></div>
+                            <p>PYTHON</p>
+                            <div class="ligne5"></div>
+                            <p>THREE.js</p>
+                            <div class="ligne4"></div>
+                        </div>
+                    </div>
+                    <div class="part3_int_left">
+                        <div class="part3_titre">
+                            <h2>Logiciels</h2>
+                        </div>
+                        <div class="part3_language">
+                            <p>Visual Studio Code</p>
+                            <div class="ligne"></div>
+                            <p>Notepad ++</p>
+                            <div class="ligne2"></div>
+                            <p>Suite Adobe (AI, PS, XD, PR...)</p>
+                            <div class="ligne"></div>
+                            <p>Pack Microsoft Office</p>
+                            <div class="ligne"></div>
+                            <p>Unity</p>
+                            <div class="ligne3"></div>
+                            <p>Unreal Engine</p>
+                            <div class="ligne3"></div>
+                            <!-- <p><img src="" alt="">jsp</p>
+                            <div class="ligne3"></div> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div id="section4" class="partie_4">
+                    <div class="part3_titre">
+                        <h2>À Propos</h2>
+                    </div>
+                    <div class="presentation">
+                        <p>Bonjour ! J'ai récemment obtenu la Licence professionnelle Métiers du Numérique mention très
+                            bien et je suis à la recherche d'un emploi dans la programmation. Durant ma formation, j'ai
+                            pu acquérir de nombreuses compétences en programmation,
+                            infographie et audiovisuel notamment grâce aux nombreux projets réalisés pour des
+                            entreprises collaborant avec l'IUT de Béziers. Ainsi, je suis entrain d'apprendre en
+                            auto-didacte ReactJS.</p>
+                        <img src="img/moi2.jpeg" alt="">
+                    </div>
+                    <div class="part4_button">
+                        <a href="mailto:jerome.voipierre@gmail.com">
+                            <button>Me contacter</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+
+
+<script src="script.js"></script>
+
+<!-- Button -->
+<!-- <div class="page-wrapper">
+    <a class="btn trigger" href="#">click me</a>
+</div> -->
+
+<!-- Modal -->
+<div id="item1m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/threejs2.png" alt="" id="image-threejs">
+            <p>Expérience réalisée lors de mon apprentissage en auto didacte de THREE.js, accompagné de WebGL. Scène
+                créée sur Blender et l'animation du portail est un shader personnalisé en glsl. <a target="blank"
+                    href="https://imported-scene-from-blender-and-with-animations-added.vercel.app/">Accéder a
+                    l'expérience !</a></p>
+        </div>
+    </div>
+</div>
+
+<div id="item2m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/wiseasactu.png" alt="">
+            <p>Site réalisé lors de mon stage de 3 mois en entreprise pour l'obtention de la licence MDN. From scratch,
+                en HTML/CSS/JS/PHP/AJAX, un site qui référence des posts. Création de compte,
+                photo de profil, bannière de compte, connexion, recherche avec filtre, pagination et autres...</p>
+        </div>
+    </div>
+</div>
+
+<div id="item3m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/fan2pirates.png" alt="">
+            <p> Jeu réalisé avec la bibliothèque Phaser. En groupe de 4, nous avons tout réalisé pour ce projet, assets
+                du jeu, programmation en javascript, musique... <a target="blank"
+                    href="http://adrien.comas.fr/FAN2PIRATES/">Accéder au site</a></p>
+        </div>
+    </div>
+</div>
+
+<div id="item4m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/courtmetrage.png" alt="">
+            <p> Court métrage réalisé en cours d'audiovisuel. J'ai réalisé les lumières de celui-ci. <a target="blank"
+                    href="https://www.youtube.com/watch?v=72BGbe6y3Pc">Regarder la vidéo</a></p>
+        </div>
+    </div>
+</div>
+
+<div id="item5m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/voyagevoyage.png" alt="">
+            <p> Site réalisé lors d'une mise en situation. Avec un ami, nous avons conçu le projet du site et nous
+                l'avons fait avec Wordpress. Site internet de voyage à thèmes: <a target="blank"
+                    href="https://web-mmi.iutbeziers.fr/instanceCMS/instanceCMS_02/wordpress/">Voir le site</a></p>
+        </div>
+    </div>
+</div>
+
+<div id="item6m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/3galaxie.png" alt="">
+            <p> Expérience THREE.js aussi réalisé lors de mon apprentissage en autodidacte. Un générateur de galaxie, <a
+                    target="blank" href="https://animated-galaxy-gk5oxy7j5-jeromevoipierre-gmailcom.vercel.app/">cliquez
+                    ici</a> pour découvrir l'expérience.</p>
+        </div>
+    </div>
+</div>
+
+<div id="item7m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/site_mmi_prod.png" alt="">
+            <p> Voici un site réalisé pour une présentation de court métrages réalisé par nous mêmes à l'IUT de Béziers.
+                <a target="blank" href="/site">Voir le site</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="item8m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/jeu2tir.png" alt="">
+            <p> Jeu réalisé lors du grand confinement de début du COVID-19. Un jeu de plateforme combiné à une maîtrise
+                de sa visée et de ses mouvements dans les airs vous permettra de terminer les 12 niveaux. Un design
+                sobre et simple, vous devez finir les
+                niveaux le plus vite possible pour montrer que vous êtes le meilleur ! Fait à l'aide d'Unity et de C#.
+            <form method="get" action="Jeu2tir.zip">
+                <button class="download_button" type="submit">Télecharger le jeu (125mo)</button>
+            </form>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="item9m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img src="img/cesite.png" alt="">
+            <p> Mon site Portfolio que j'ai réalisé en pur HTML CSS et JS et Jquery.</p>
+        </div>
+    </div>
+</div>
+<div id="item10m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <a target="blank" href="img/affiche_charrues.jpg">
+                <img style="height: 370px;" src="img/affiche.png" alt="">
+            </a>
+            <p> Affiche réalisé lors d'un exercice pour le festival des vieilles charrues. Cliquez sur l'image pour la
+                voir entièrement.</p>
+        </div>
+    </div>
+</div>
+<div id="item11m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <a target="blank" href="img/AFFICHE BAK TO THE FUTURE XD.png">
+                <img src="img/backfutur.png" alt="">
+            </a>
+            <p> Affiche réalisé lors d'un exercice pour le film "Retour vers le futur".</p>
+        </div>
+    </div>
+</div>
+<div id="item12m" class="modal-wrapper">
+    <div class="modal">
+        <div class="head">
+            <a class="btn-close trigger" href="#">
+                <div class="x">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </a>
+        </div>
+        <div class="content">
+            <img style="height: 335px;" src="img/makingof.png" alt="">
+            <p> Making of d'un moyen métrage que l'on a réalisé avec la licence MDN à l'IUT de Béziers. J'ai fait seul
+                ce making of de 20 minutes montrant les coulisses du film avec des interviews. Le film est entrain de
+                faire le tour du monde notamment grace aux différents concours. C'est pour cela qu'il n'est pas
+                disponible à la demande et le making of également. Pour en savoir plus et voir le making of, contactez
+                moi.</p>
+        </div>
+    </div>
+</div>
